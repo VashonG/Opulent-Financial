@@ -1,0 +1,214 @@
+.menu {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-color: var(--gray-100);
+  border-right-style: solid;
+  border-right-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 1026px;
+  position: relative;
+  width: 282px;
+}
+
+.menu .frame {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 48px;
+  position: relative;
+  width: 100%;
+}
+
+.menu .div {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 48px;
+  position: relative;
+}
+
+.menu .logo {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 14px;
+  padding: 32px 0px 0px 40px;
+  position: relative;
+}
+
+.menu .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 14px;
+  position: relative;
+}
+
+.menu .k {
+  height: 60px;
+  object-fit: cover;
+  position: relative;
+  width: 180px;
+}
+
+.menu .menu-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 64px;
+  position: relative;
+}
+
+.menu .div-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0px 0px 0px 48px;
+  position: relative;
+}
+
+.menu .menu-item {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+}
+
+.menu .img {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.menu .dashboard {
+  color: var(--primary-500);
+  font-family: var(--text-semi-bold-font-family);
+  font-size: var(--text-semi-bold-font-size);
+  font-style: var(--text-semi-bold-font-style);
+  font-weight: var(--text-semi-bold-font-weight);
+  letter-spacing: var(--text-semi-bold-letter-spacing);
+  line-height: var(--text-semi-bold-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.menu .text-wrapper-2 {
+  color: var(--gray-800);
+  font-family: var(--text-medium-font-family);
+  font-size: var(--text-medium-font-size);
+  font-style: var(--text-medium-font-style);
+  font-weight: var(--text-medium-font-weight);
+  letter-spacing: var(--text-medium-letter-spacing);
+  line-height: var(--text-medium-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.menu .heroicons-outline-2 {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.menu .heroicons-outline-envelope {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.menu .group {
+  height: 18px;
+  margin-right: -2px;
+  position: relative;
+  width: 20px;
+}
+
+.menu .overlap-group {
+  background-color: #fa5252;
+  border-radius: 100px;
+  height: 18px;
+  position: relative;
+  width: 18px;
+}
+
+.menu .element {
+  color: var(--red-100);
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+}
+
+.menu .user-account {
+  align-items: center;
+  align-self: stretch;
+  border-color: var(--gray-100);
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  margin-left: -1px;
+  padding: 32px 40px;
+  position: relative;
+  width: 100%;
+}
+
+.menu .ellipse {
+  height: 40px;
+  object-fit: cover;
+  position: relative;
+  width: 40px;
+}
+
+.menu .frame-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+}
+
+.menu .david-wise {
+  color: var(--gray-900);
+  font-family: var(--text-medium-font-family);
+  font-size: var(--text-medium-font-size);
+  font-style: var(--text-medium-font-style);
+  font-weight: var(--text-medium-font-weight);
+  letter-spacing: var(--text-medium-letter-spacing);
+  line-height: var(--text-medium-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.menu .partner {
+  color: var(--gray-500);
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

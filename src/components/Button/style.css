@@ -1,0 +1,158 @@
+.button {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  padding: 10px 16px;
+  position: relative;
+}
+
+.button .text-wrapper {
+  font-family: var(--text-medium-font-family);
+  font-size: var(--text-medium-font-size);
+  font-style: var(--text-medium-font-style);
+  font-weight: var(--text-medium-font-weight);
+  letter-spacing: var(--text-medium-letter-spacing);
+  line-height: var(--text-medium-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button.secondary {
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.button.disabled {
+  gap: 10px;
+}
+
+.button.hover {
+  gap: 10px;
+}
+
+.button.inline {
+  gap: 10px;
+}
+
+.button.primary {
+  border-radius: 20px;
+}
+
+.button.focused {
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.button.hover.primary {
+  background-color: var(--primary-600);
+}
+
+.button.default.inline {
+  border-radius: 8px;
+}
+
+.button.focused.primary {
+  background-color: var(--primary-600);
+  border: 2px solid;
+  border-color: var(--primary-200);
+}
+
+.button.default.secondary {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--gray-200);
+}
+
+.button.inline.disabled {
+  border-radius: 8px;
+}
+
+.button.primary.disabled {
+  background-color: var(--primary-300);
+}
+
+.button.hover.secondary {
+  background-color: var(--gray-100);
+}
+
+.button.focused.secondary {
+  background-color: var(--gray-100);
+  border: 2px solid;
+  border-color: var(--gray-000);
+}
+
+.button.default.primary {
+  background-color: var(--primary-500);
+}
+
+.button.focused.inline {
+  background-color: var(--gray-000);
+}
+
+.button.hover.inline {
+  border-radius: 8px;
+}
+
+.button.secondary.disabled {
+  background-color: var(--gray-000);
+}
+
+.button.hover .text-wrapper {
+  margin-top: -0.5px;
+}
+
+.button.inline .text-wrapper {
+  margin-top: -0.5px;
+}
+
+.button.hover.primary .text-wrapper {
+  color: var(--primary-100);
+}
+
+.button.default.inline .text-wrapper {
+  color: var(--gray-900);
+}
+
+.button.focused.primary .text-wrapper {
+  color: var(--primary-100);
+}
+
+.button.default.secondary .text-wrapper {
+  color: var(--gray-900);
+  margin-top: -1px;
+}
+
+.button.inline.disabled .text-wrapper {
+  color: var(--gray-200);
+}
+
+.button.primary.disabled .text-wrapper {
+  color: var(--primary-100);
+  margin-top: -0.5px;
+}
+
+.button.hover.secondary .text-wrapper {
+  color: var(--gray-900);
+}
+
+.button.focused.secondary .text-wrapper {
+  color: var(--gray-900);
+}
+
+.button.default.primary .text-wrapper {
+  color: var(--white);
+  margin-top: -0.5px;
+}
+
+.button.focused.inline .text-wrapper {
+  color: var(--black);
+}
+
+.button.hover.inline .text-wrapper {
+  color: var(--black);
+}
+
+.button.secondary.disabled .text-wrapper {
+  color: var(--gray-300);
+}

@@ -1,0 +1,102 @@
+.accounts {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.accounts .div-3 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 1024px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.accounts .frame-4 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  left: 312px;
+  position: absolute;
+  top: 92px;
+  width: 1096px;
+}
+
+.accounts .frame-5 {
+  margin-bottom: -0.5px;
+  margin-left: -0.5px;
+  margin-top: -0.5px;
+  position: relative;
+  width: 539px;
+}
+
+.accounts .frame-6 {
+  margin-right: -0.5px;
+  margin-top: -0.5px;
+  position: relative;
+  width: 539px;
+}
+
+.accounts .navigation {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 312px;
+  position: absolute;
+  top: 32px;
+  width: 1096px;
+}
+
+.accounts .text-wrapper-3 {
+  color: var(--gray-900);
+  font-family: var(--text-XL-semi-bold-font-family);
+  font-size: var(--text-XL-semi-bold-font-size);
+  font-style: var(--text-XL-semi-bold-font-style);
+  font-weight: var(--text-XL-semi-bold-font-weight);
+  letter-spacing: var(--text-XL-semi-bold-letter-spacing);
+  line-height: var(--text-XL-semi-bold-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.accounts .button-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+}
+
+.accounts .button-instance {
+  flex: 0 0 auto !important;
+}
+
+.accounts .menu-instance {
+  left: -1px !important;
+  position: absolute !important;
+  top: -1px !important;
+}
+
+.accounts .design-component-instance-node {
+  color: var(--gray-800) !important;
+  font-family: var(--text-medium-font-family) !important;
+  font-size: var(--text-medium-font-size) !important;
+  font-style: var(--text-medium-font-style) !important;
+  font-weight: var(--text-medium-font-weight) !important;
+  letter-spacing: var(--text-medium-letter-spacing) !important;
+  line-height: var(--text-medium-line-height) !important;
+}
+
+.accounts .menu-2 {
+  color: var(--primary-500) !important;
+  font-family: var(--text-semi-bold-font-family) !important;
+  font-size: var(--text-semi-bold-font-size) !important;
+  font-style: var(--text-semi-bold-font-style) !important;
+  font-weight: var(--text-semi-bold-font-weight) !important;
+  letter-spacing: var(--text-semi-bold-letter-spacing) !important;
+  line-height: var(--text-semi-bold-line-height) !important;
+}
