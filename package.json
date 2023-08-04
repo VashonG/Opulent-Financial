@@ -10,6 +10,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@builder.io/react": "^3.0.11",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -27,6 +28,7 @@
     "@storybook/react": "^7.0.3",
     "@storybook/react-webpack5": "^7.0.3",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/react-dom": "^18.2.7",
     "parcel": "^2.8.0",
     "parcel-reporter-static-files-copy": "^1.5.0",
     "process": "^0.11.10",

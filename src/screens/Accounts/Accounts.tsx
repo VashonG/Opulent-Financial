@@ -21,8 +21,8 @@ export const Accounts = (): JSX.Element => {
           accountsClassName="menu-2"
           className="menu-instance"
           dashboardClassName="design-component-instance-node"
-          hasDiv={false}
-          hasMenuItem={false}
+          hasDiv={true}
+          hasMenuItem={true}
           heroiconsOutline="/img/heroicons-outline-home-6.svg"
           img="/img/heroicons-outline-inbox-stack-1.svg"
         />
